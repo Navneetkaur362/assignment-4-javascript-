@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Selection Form</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Search Matches</h1>
+    <button class="studentId">Student no.</button>
+    <button class="studentName">Name</button>
+    <p class="p1"></p>
+    <p class="p2"></p>
+    <h2>Choose Sport : cricket, Basketball, football or soccer</h2>
+
+    <form action="#" method="post">
+      <label for="sport">Sport:</label>
+      <input
+        type="text"
+        id="sport"
+        name="sport"
+        placeholder="Enter sport"
+        required
+      />
+      <br />
+
+      <label for="date">Choose a Date:</label>
+      <input type="date" id="date" name="date" required />
+
+      <br />
+
+      <input id="button" type="submit" value="Submit" />
+    </form>
+    <p id="data"></p>
+  </body>
+</html>
